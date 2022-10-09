@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  padding: 25px;
+  
+  background-color:beige;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +13,70 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none; /* no underline */
+}
+
+.travel-card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.card-img {
+  width:40vw;
+  height:auto;
+  object-fit:scale-down;
+}
+
+.card-content{
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 15px;
+
+}
+.card-map-location{
+ margin-left: 10px;
+ color: #918E9B ;
+}
+
+.card-location {
+  width: 40px;
+  height: 10px;
+  left: 195px;
+  top: 119px;
+  color: #2B283A;
+}
+
+.card-title{
+  color: #2B283A;
+  width: 326px;
+  height: 40px;
+  left: 184px;
+  top: 136px;
+}
+
+.card-startdate{
+  margin-right: 10px;
+}
+.card-enddate {
+  margin-left: 10px;
+}
+
+.Navbar {
+  background-color: #F55A5A;
+  padding: 30px;
+  color: #FFFFFF;
+  font-size: xx-large;
+}
+
+.fa-map-marker {
+ color: #F55A5A;
+ margin-right: 5px;
+}
+
+.fa-earth-americas{
+  color: white;
 }
