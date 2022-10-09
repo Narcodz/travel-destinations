@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         id: 1,
         title: "Baa Atoll, North Province",
@@ -51,3 +51,5 @@ export default [
     },
    
 ]
+
+export default data
